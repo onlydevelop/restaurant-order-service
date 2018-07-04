@@ -7,7 +7,16 @@ public class LineItem {
 	private int price;
 	private int quantity;
 	private int total;
+	private int port;
 	
+	public int getPort() {
+		return port;
+	}
+
+	public void setPort(int port) {
+		this.port = port;
+	}
+
 	public int getPrice() {
 		return price;
 	}

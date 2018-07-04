@@ -21,6 +21,7 @@ public class OrderController {
 			
 			lineItem.setName(item.getName());
 			lineItem.setPrice(item.getPrice());
+			lineItem.setPort(item.getPort());
 			order.addItem(lineItem);
 		}
 		return order;

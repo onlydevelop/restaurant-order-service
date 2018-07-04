@@ -6,7 +6,16 @@ public class Item {
 	
 	private String name;
 	private int price;
+	private int port;
 	
+	public int getPort() {
+		return port;
+	}
+
+	public void setPort(int port) {
+		this.port = port;
+	}
+
 	public long getId() {
 		return id;
 	}
