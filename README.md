@@ -45,3 +45,15 @@ header: Content-Type:application/json
     "total": 670
 }
 ```
+
+#### Order of services to start
+
+```
+1.0 Goto Zipkin and do docker-compose up
+2.0 Start Config Server
+3.0 STart Naming Server
+4.1 Start Item Service1
+4.2 Start Item Service2 (Optional for load balancing demo)
+5.0 Start Order Service
+6.0 Start API Gateway Server
+ ```
