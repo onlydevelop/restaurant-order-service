@@ -2,6 +2,10 @@
 
 This is the order service for restaurant. Given the lineItems POST-ed to the service, it returns the total of individual line items as well as the total of all line items. To get the price of individual line items, it calls the item-service and calculates the total.
 
+#### Architecture
+
+![Architecture](Diagram.png?raw=true "Architecture")
+
 #### Request
 ```
 POST http://localhost:11000/orders/type/takeaway
